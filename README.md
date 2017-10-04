@@ -1,8 +1,7 @@
 # yaml-prune
 
 [![npm version](https://badge.fury.io/js/yaml-prune.svg)](http://badge.fury.io/js/yaml-prune)
-[![Build Status](https://travis-ci.org/lmammino/yaml-prune.svg?branch=master)](https://travis-ci.org/lmammino/yaml-prune)
-[![codecov.io](https://codecov.io/gh/lmammino/yaml-prune/coverage.svg?branch=master)](https://codecov.io/gh/lmammino/yaml-prune)
+[![CircleCI](https://circleci.com/gh/lmammino/yaml-prune.svg?style=shield)](https://circleci.com/gh/lmammino/yaml-prune)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
