@@ -1,0 +1,49 @@
+{
+  "name": "yaml-prune",
+  "version": "0.0.1",
+  "description": "A simple command line script that allows to prune parts of a yaml file",
+  "main": "index.js",
+  "bin": {
+    "yaml-prune": "index.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "eslint index.js index.test.js && jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/yaml-prune.git"
+  },
+  "keywords": [
+    "yaml",
+    "yml",
+    "yaml prune",
+    "yaml delete",
+    "yaml edit",
+    "yaml strip",
+    "yaml manipulate",
+    "command line",
+    "cli"
+  ],
+  "author": "Luciano Mammino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmammino/yaml-prune/issues"
+  },
+  "homepage": "https://github.com/lmammino/yaml-prune#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "object-path": "^0.11.4",
+    "yamljs": "^0.3.0"
+  }
+}
