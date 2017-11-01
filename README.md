@@ -30,19 +30,19 @@ npm install --save-dev yaml-prune
 Using "pipes":
 
 ```bash
-cat file.yml some.path | yaml-prune
+cat some.yml | yaml-prune
 ```
 
 Using input redirection:
 
 ```bash
-yaml-prune some.path < file.yml
+yaml-prune some.yml < file.yml
 ```
 
 If you want to save the output to a file just use output redirection:
 
 ```bash
-yaml-prune some.path < file.yml > strippedFile.yml
+yaml-prune some.yml < file.yml > strippedFile.yml
 ```
 
 

@@ -1,6 +1,6 @@
 {
   "name": "yaml-prune",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple command line script that allows to prune parts of a yaml file",
   "main": "index.js",
   "bin": {
